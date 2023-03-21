@@ -1,7 +1,7 @@
 # tls-leak
 Domain discovery via TLS connections.
 
-The main idea in this tool is to obtain domain information via the data that's sent via the TLS certificates. 
+The main idea in this tool is to obtain domain information via the data that's sent via the TLS certificates (using the [Subject Alternative Name](https://www.rfc-editor.org/rfc/rfc5280#section-4.2.1.6) field). 
 This is not the same as searching in the certificate transparency data like other tools do.
 
 # Usage
